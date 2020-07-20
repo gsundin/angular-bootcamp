@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularWorkshopWK"
+    }
+  },
+  "defaultProject": "AngularWorkshopWK",
+  "cli": {
+    "analytics": "551b9467-7b9c-47e3-b82b-b1fb4347fb12"
+  }
 }
