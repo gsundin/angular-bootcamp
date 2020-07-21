@@ -12,4 +12,6 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // Additional content (pageTitle)
+  pageTitle:string = 'About Me';
 }
