@@ -13,6 +13,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
+
 import { FormsModule } from '@angular/forms';
 //End imports from Lab 3
 
@@ -36,7 +37,19 @@ import { RatingComponent } from './rating/rating.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    MatListModule,
+    MatTabsModule,
+    MatSnackBarModule,
+    MatDialogModule,
+    MatCardModule,
+    MatIconModule,
+    MatSlideToggleModule,
+    MatButtonModule,
+    MatLineModule,
+    MatInputModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
